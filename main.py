@@ -1,8 +1,11 @@
-from mini_biblioteca import Livros, Usuario, Emprestimos
+from emprestimos import Emprestimo
+from livros import Livros
+from usuario import Usuarios
+from emprestimos import Emprestismo
 
 def executar():
-    user = Usuario("Clara", "U001")
-    book = Livro("O Hobbit", "Daniel Golleman", "L001")
+    user = Usuarios("Clara", "U001")
+    book = Livros("O Hobbit", "Daniel Golleman", "L001")
     
     print(f"--- Início ---\n{user}\n{book}\n")
 

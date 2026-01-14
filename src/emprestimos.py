@@ -1,5 +1,5 @@
-from mini_biblioteca.livros import Livro
-from mini_biblioteca.usuarios import Usuario
+from mini_biblioteca.livro import Livro
+from mini_biblioteca.usuario import Usuario
 
 class Emprestimo:
     def __init__(self, livro: Livro, usuario: Usuario):
